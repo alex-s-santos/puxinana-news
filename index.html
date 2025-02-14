@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puxinanã News | Notícias sobre Puxinanã</title>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="shortcut icon" href="/assets/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/reset.css">
+    <link rel="stylesheet" href="./assets/styles/header.css">
+    <link rel="stylesheet" href="./assets/styles/footer.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+
+
+    <script src="./assets/scripts/current-year.js" defer></script>
+    <script src="./assets/scripts/mobile-menu.js" defer></script>
+</head>
+<body>
+    <header class="container">
+        <figure class="header__box-logo">
+            <img src="./assets/images/logo.png" alt="Logo Blog Puxinanã News" class="header__logo">
+        </figure>
+
+        <nav>       
+            <i class="fa fa-bars" id="mobile-menu-btn"></i>
+        </nav>
+    </header>
+    <main>
+        <section class="main__presentation">
+            <h1>Blog Puxinanã News</h1>
+            <p>Tudo o que acontece em Puxinanã e região você fica sabendo primeiro aqui!📢</p>
+        </section>
+        <!--Esse link a baixo será mudado dinamicamente com JS, mudando
+        a imagem, o link e s textos-->
+        <a href="">
+            <div class="main__highlights">
+                <h2>Notícia em destaque</h2>
+                <p>Texto curto sobre a notícia</p>
+            </div>
+        </a>
+
+        <!--Essa seção serão adicionados os cards dinamicamente
+         na medida em que forem sendo criadas mais notícias-->
+        <section class="main__notices">
+            <ul class="main__notices-list">
+                <li class="notices-list-card">
+                    <a href="">
+                        <h3 class="card-title">Título da notícia</h3>
+                        <img class="card-image" src="./assets/images/imagem.png" alt="Foto de capa da notícia">
+                    </a>
+                </li>
+                <li class="notices-list-card">
+                    <a href="">
+                        <h3 class="card-title">Título da notícia</h3>
+                        <img class="card-image" src="./assets/images/imagem.png" alt="Foto de capa da notícia">
+                    </a>
+                </li>
+                <li class="notices-list-card">
+                    <a href="">
+                        <h3 class="card-title">Título da notícia</h3>
+                        <img class="card-image" src="./assets/images/imagem.png" alt="Foto de capa da notícia">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="footer-current-year"></span> Puxinanã News - Todos os direitos reservados</p>
+        <p>Desenvolvido por: <a href="" class="altech">ALTech Agência Web</a></p>
+    </footer>
+</body>
+</html>

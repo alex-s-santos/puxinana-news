@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1966b4;
+    color: #fbff00;
+}
+
+/*logo*/
+.header__box-logo {
+    width: 17%;
+}
+
+.header__logo {
+    width: 100%;
+}
+
+/*nav*/
+.fa-bars {
+    font-size: 2rem;
+    cursor: pointer;
+}

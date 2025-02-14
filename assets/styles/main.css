@@ -1,0 +1,59 @@
+/*section Presentation*/
+.main__presentation {
+    padding: 10%;
+    font-size: 1.8rem;
+    font-weight: 800;
+    background-image: url(../images/capazul.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+    color: #fbff00;
+    background-color: #1966b4;
+}
+
+/*section highlights*/
+.main__highlights {
+    padding: 15%;
+    background-image: url(../images/imagem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 1%;
+    color: #1966b4;
+    font-size: 2rem;
+    font-weight: 800;
+    border: 5px solid #fbff00;
+}
+
+/*section notices*/
+.main__notices {
+    margin: 1%;
+}
+
+.main__notices-list  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.notices-list-card {
+    padding: 1%;
+    margin-bottom: 3%;
+    background-color: #1966b4;
+    width: 30%;
+    border: 5px solid #fbff00;
+    border-radius: 10px 3px 10px 3px;
+    box-shadow: 10px 10px 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #fbff00;
+}
+
+.card-image {
+    width: 80%;
+    margin: 4%;
+    border: 1px solid #fbff00;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #f2f2f2;
+}
