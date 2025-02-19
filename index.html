@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./assets/styles/footer.css">
     <link rel="stylesheet" href="./assets/styles/main.css">
 
-
+    <script src="./assets/scripts/news.js" defer></script>
     <script src="./assets/scripts/current-year.js" defer></script>
     <script src="./assets/scripts/mobile-menu.js" defer></script>
 </head>
@@ -30,12 +30,11 @@
             <h1>Blog Jenipapo News</h1>
             <p>Tudo o que acontece em Jenipapo e região você fica sabendo primeiro aqui!📢</p>
         </section>
-        <!--Esse link a baixo será mudado dinamicamente com JS, mudando
-        a imagem, o link e s textos-->
-        <a href="">
-            <div class="main__highlights">
-                <h2>Notícia em destaque</h2>
-                <p>Texto curto sobre a notícia</p>
+       
+        <a href="" id="main-news-link">
+            <div class="main__highlights" id="main-news-image">
+                <h2 id="main-news-title">Notícia em destaque</h2>
+                <p id="main-news-text">Texto curto sobre a notícia</p>
             </div>
         </a>
 
@@ -46,19 +45,7 @@
                 <li class="news-list-card">
                     <a href="">
                         <h3 class="card-title">Título da notícia</h3>
-                        <img class="card-image" src="./assets/images/imagem.png" alt="Foto de capa da notícia">
-                    </a>
-                </li>
-                <li class="news-list-card">
-                    <a href="">
-                        <h3 class="card-title">Título da notícia</h3>
-                        <img class="card-image" src="./assets/images/imagem.png" alt="Foto de capa da notícia">
-                    </a>
-                </li>
-                <li class="news-list-card">
-                    <a href="">
-                        <h3 class="card-title">Título da notícia</h3>
-                        <img class="card-image" src="./assets/images/imagem.png" alt="Foto de capa da notícia">
+                        <img class="card-image" src="./assets/images/imagem.png"  alt="Foto de capa da notícia">
                     </a>
                 </li>
             </ul>
